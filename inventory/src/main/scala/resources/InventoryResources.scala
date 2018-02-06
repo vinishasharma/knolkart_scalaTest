@@ -1,6 +1,6 @@
 package resources
 
-import  operations.Item
+import entity.Item
 
 trait InventoryResources {
 

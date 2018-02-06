@@ -20,11 +20,6 @@
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile->compile]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile->master]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile->master]
-[debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->apiresources#apiresources_2.12;0.1.0-SNAPSHOT [compile->compile]
-[debug] sbt-chain: Checking cache for: dependency: apiresources#apiresources_2.12;0.1.0-SNAPSHOT {compile=[compile, default(compile)], runtime=[compile, default(compile)], test=[compile, default(compile)], compile-internal=[compile, default(compile)], runtime-internal=[compile, default(compile)], test-internal=[compile, default(compile)]}
-[debug] don't use cache for apiresources#apiresources_2.12;0.1.0-SNAPSHOT: changing=true
-[debug] 	found apiresources#apiresources_2.12;0.1.0-SNAPSHOT in inter-project
-[debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->apiresources#apiresources_2.12;0.1.0-SNAPSHOT [compile->default(compile)]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->default]
 [debug] sbt-chain: Checking cache for: dependency: log4j#log4j;1.2.17 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
 [debug] sbt-chain: module revision found in cache: log4j#log4j;1.2.17
@@ -55,8 +50,6 @@
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile->compile]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile->master]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile->master]
-[debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->apiresources#apiresources_2.12;0.1.0-SNAPSHOT [compile->compile]
-[debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->apiresources#apiresources_2.12;0.1.0-SNAPSHOT [compile->default(compile)]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->default]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->runtime]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->compile]
@@ -81,8 +74,6 @@
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->compile]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->master]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->master]
-[debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->apiresources#apiresources_2.12;0.1.0-SNAPSHOT [runtime->compile]
-[debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->apiresources#apiresources_2.12;0.1.0-SNAPSHOT [runtime->default(compile)]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [runtime->default]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [runtime->runtime]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [runtime->compile]
@@ -111,8 +102,6 @@
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile->compile]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile->master]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile->master]
-[debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->apiresources#apiresources_2.12;0.1.0-SNAPSHOT [compile->compile]
-[debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->apiresources#apiresources_2.12;0.1.0-SNAPSHOT [compile->default(compile)]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->default]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->runtime]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->compile]
@@ -137,8 +126,6 @@
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->compile]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->master]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->master]
-[debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->apiresources#apiresources_2.12;0.1.0-SNAPSHOT [runtime->compile]
-[debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->apiresources#apiresources_2.12;0.1.0-SNAPSHOT [runtime->default(compile)]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [runtime->default]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [runtime->runtime]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [runtime->compile]
@@ -163,8 +150,6 @@
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [test->compile]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [test->master]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [test->master]
-[debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->apiresources#apiresources_2.12;0.1.0-SNAPSHOT [test->compile]
-[debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->apiresources#apiresources_2.12;0.1.0-SNAPSHOT [test->default(compile)]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [test->default]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [test->runtime]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [test->compile]
@@ -196,8 +181,6 @@
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile->compile]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile->master]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile->master]
-[debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->apiresources#apiresources_2.12;0.1.0-SNAPSHOT [compile->compile]
-[debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->apiresources#apiresources_2.12;0.1.0-SNAPSHOT [compile->default(compile)]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->default]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->runtime]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->compile]
@@ -224,8 +207,6 @@
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile-internal->compile]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile-internal->master]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile-internal->master]
-[debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->apiresources#apiresources_2.12;0.1.0-SNAPSHOT [compile-internal->compile]
-[debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->apiresources#apiresources_2.12;0.1.0-SNAPSHOT [compile-internal->default(compile)]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile-internal->default]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile-internal->runtime]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile-internal->compile]
@@ -254,8 +235,6 @@
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile->compile]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile->master]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile->master]
-[debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->apiresources#apiresources_2.12;0.1.0-SNAPSHOT [compile->compile]
-[debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->apiresources#apiresources_2.12;0.1.0-SNAPSHOT [compile->default(compile)]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->default]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->runtime]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->compile]
@@ -280,8 +259,6 @@
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->compile]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->master]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->master]
-[debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->apiresources#apiresources_2.12;0.1.0-SNAPSHOT [runtime->compile]
-[debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->apiresources#apiresources_2.12;0.1.0-SNAPSHOT [runtime->default(compile)]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [runtime->default]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [runtime->runtime]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [runtime->compile]
@@ -307,8 +284,6 @@
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime-internal->compile]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime-internal->master]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime-internal->master]
-[debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->apiresources#apiresources_2.12;0.1.0-SNAPSHOT [runtime-internal->compile]
-[debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->apiresources#apiresources_2.12;0.1.0-SNAPSHOT [runtime-internal->default(compile)]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [runtime-internal->default]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [runtime-internal->runtime]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [runtime-internal->compile]
@@ -338,8 +313,6 @@
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile->compile]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile->master]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile->master]
-[debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->apiresources#apiresources_2.12;0.1.0-SNAPSHOT [compile->compile]
-[debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->apiresources#apiresources_2.12;0.1.0-SNAPSHOT [compile->default(compile)]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->default]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->runtime]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->compile]
@@ -364,8 +337,6 @@
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->compile]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->master]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->master]
-[debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->apiresources#apiresources_2.12;0.1.0-SNAPSHOT [runtime->compile]
-[debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->apiresources#apiresources_2.12;0.1.0-SNAPSHOT [runtime->default(compile)]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [runtime->default]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [runtime->runtime]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [runtime->compile]
@@ -390,8 +361,6 @@
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [test->compile]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [test->master]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [test->master]
-[debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->apiresources#apiresources_2.12;0.1.0-SNAPSHOT [test->compile]
-[debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->apiresources#apiresources_2.12;0.1.0-SNAPSHOT [test->default(compile)]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [test->default]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [test->runtime]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [test->compile]
@@ -418,8 +387,6 @@
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [test-internal->compile]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [test-internal->master]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [test-internal->master]
-[debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->apiresources#apiresources_2.12;0.1.0-SNAPSHOT [test-internal->compile]
-[debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->apiresources#apiresources_2.12;0.1.0-SNAPSHOT [test-internal->default(compile)]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [test-internal->default]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [test-internal->runtime]
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [test-internal->compile]
@@ -497,13 +464,13 @@
 [debug] == resolving dependencies inventory#inventory$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.4 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
-[debug] 	[NOT REQUIRED] jline#jline;2.14.5!jline.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.4!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] log4j#log4j;1.2.17!log4j.jar(src)
+[debug] 	[NOT REQUIRED] jline#jline;2.14.5!jline.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.4!scala-library.jar(src)
-[debug] :: resolution report :: resolve 75ms :: artifacts dl 10ms
+[debug] :: resolution report :: resolve 90ms :: artifacts dl 6ms
 [debug] 	report for inventory#inventory$sources;0.1.0-SNAPSHOT compile produced in /home/knoldus/IdeaProjects/knolkartTest/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory$sources-compile.xml
 [debug] 	report for inventory#inventory$sources;0.1.0-SNAPSHOT runtime produced in /home/knoldus/IdeaProjects/knolkartTest/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory$sources-runtime.xml
 [debug] 	report for inventory#inventory$sources;0.1.0-SNAPSHOT test produced in /home/knoldus/IdeaProjects/knolkartTest/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory$sources-test.xml
@@ -515,4 +482,4 @@
 [debug] 	report for inventory#inventory$sources;0.1.0-SNAPSHOT plugin produced in /home/knoldus/IdeaProjects/knolkartTest/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory$sources-plugin.xml
 [debug] 	report for inventory#inventory$sources;0.1.0-SNAPSHOT pom produced in /home/knoldus/IdeaProjects/knolkartTest/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory$sources-pom.xml
 [debug] 	report for inventory#inventory$sources;0.1.0-SNAPSHOT scala-tool produced in /home/knoldus/IdeaProjects/knolkartTest/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory$sources-scala-tool.xml
-[debug] 	resolve done (75ms resolve - 10ms download)
+[debug] 	resolve done (90ms resolve - 6ms download)

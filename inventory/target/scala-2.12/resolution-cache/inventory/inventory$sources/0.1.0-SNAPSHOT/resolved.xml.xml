@@ -4,7 +4,7 @@
 		module="inventory$sources"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20180206135718"
+		publication="20180206155123"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -28,10 +28,6 @@
 		</dependency>
 		<dependency org="org.scala-lang.modules" name="scala-xml_2.12" rev="1.0.6" transitive="false" conf="scala-tool->master(*),compile,runtime(*),runtime,compile(*),master">
 			<artifact name="scala-xml_2.12" type="src" ext="jar" conf="*" e:classifier="sources"/>
-			<include name="*" type="*" ext="*" conf="" matcher="exact"/>
-		</dependency>
-		<dependency org="apiresources" name="apiresources_2.12" rev="0.1.0-SNAPSHOT" transitive="false" conf="compile->compile,default(compile);runtime->compile,default(compile);test->compile,default(compile);compile-internal->compile,default(compile);runtime-internal->compile,default(compile);test-internal->compile,default(compile)">
-			<artifact name="apiresources_2.12" type="src" ext="jar" conf="*" e:classifier="sources"/>
 			<include name="*" type="*" ext="*" conf="" matcher="exact"/>
 		</dependency>
 		<dependency org="log4j" name="log4j" rev="1.2.17" transitive="false" conf="compile->default,compile,runtime,default(compile),master;runtime->default,compile,runtime,default(compile),master;test->default,compile,runtime,default(compile),master;compile-internal->default,compile,runtime,default(compile),master;runtime-internal->default,compile,runtime,default(compile),master;test-internal->default,compile,runtime,default(compile),master">

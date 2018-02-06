@@ -1,5 +1,6 @@
 package operations
 
+import entity.Item
 import org.apache.log4j.Logger
 import scala.io.StdIn
 import resources.InventoryResources
