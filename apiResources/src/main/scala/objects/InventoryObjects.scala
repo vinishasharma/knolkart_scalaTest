@@ -1,5 +1,0 @@
-package objects
-
-class InventoryObjects {
-
-}

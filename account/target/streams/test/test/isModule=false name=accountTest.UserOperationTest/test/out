@@ -1,0 +1,25 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mUserOperationTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32maddUser function[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should add new user to the existing user list *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.NullPointerException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at operations.UserOperations.addUser(UserOperations.scala:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at accountTest.UserOperationTest.$anonfun$new$1(UserOperationTest.scala:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FlatSpecLike$$anon$1.apply(FlatSpecLike.scala:1682)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should new user cannot be added exception *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Expected exception java.lang.ArithmeticException to be thrown, but java.lang.NullPointerException was thrown (UserOperationTest.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mremoveUser function[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should remove user from the existing user list[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should cannot remove user exception *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Expected exception java.lang.ArithmeticException to be thrown, but java.lang.NullPointerException was thrown (UserOperationTest.scala:26)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mauthenticateUser function[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return token if user is registered[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should cannot remove user exception *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Expected exception java.lang.ArithmeticException to be thrown, but java.lang.NullPointerException was thrown (UserOperationTest.scala:35)[0m[0m

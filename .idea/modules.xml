@@ -10,8 +10,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/checkout-build.iml" filepath="$PROJECT_DIR$/.idea/modules/checkout-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/inventory/inventory.iml" filepath="$PROJECT_DIR$/inventory/inventory.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/inventory-build.iml" filepath="$PROJECT_DIR$/.idea/modules/inventory-build.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/root.iml" filepath="$PROJECT_DIR$/.idea/modules/root.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/root-build.iml" filepath="$PROJECT_DIR$/.idea/modules/root-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/knolkarttest.iml" filepath="$PROJECT_DIR$/.idea/modules/knolkarttest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/knolkarttest-build.iml" filepath="$PROJECT_DIR$/.idea/modules/knolkarttest-build.iml" />
     </modules>
   </component>
 </project>

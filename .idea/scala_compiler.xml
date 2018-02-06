@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="sbt 1" modules="knolkarttest,knolkartTest-account,ckeckout,root,account,apiResources,checkout,inventory" />
+    <profile name="sbt 1" modules="knolkartTest-account,ckeckout,root,knolkarttest,account,apiResources,checkout,inventory" />
   </component>
 </project>

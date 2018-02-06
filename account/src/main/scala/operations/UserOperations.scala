@@ -14,8 +14,7 @@ class UserOperations extends AccountResources {
     val mobileNumber = StdIn.readLine().toString
     val userExist = userList.exists(x => x.mobileNumber == mobileNumber)
     if (userExist) {
-      log.info("similar user already exist")
-      userList
+      throw new Exception("Similar User exists,New user cannot be added")
     }
     else {
       log.info("\nEnter username\n")
@@ -31,17 +30,24 @@ class UserOperations extends AccountResources {
   }
 
   def removeUser(userList: List[User], user: User): List[User] = {
-    userList diff List(user)
+    val userExist = userList.exists(x => x.mobileNumber == user.mobileNumber)
+    if (userExist) {
+      userList diff List(user)
+          }
+    else {
+      throw new Exception("user does not exist ")
+    }
   }
 
   def authenticateUser(username: String, password: String, userList: List[User]): String = {
     val userExist = userList.exists(x => (x.username == username) && (x.password == password))
     if (userExist) {
       log.info("similar user already exist")
-      "token"
+      val token = username + "Token"
+      token
     }
     else {
-      "no token can be generated"
+      throw new Exception("user doesn't exist, no token can be generated")
     }
   }
 }
