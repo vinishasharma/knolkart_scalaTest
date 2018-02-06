@@ -30,7 +30,7 @@ class InventoryOperationTest extends FlatSpec {
     assert(inventoryOperationTest.sortItems(List(item,item3),"low to high") == List(item,item3))
   }
 
-  it should "sort item based on criteria given" in {
+  it should "sort item from high to low based on criteria given" in {
     assert(inventoryOperationTest.sortItems(List(item,item3),"highToLow") == List(item3,item))
   }
 

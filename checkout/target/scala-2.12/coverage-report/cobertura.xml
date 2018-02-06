@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage 
+line-rate="1.00" lines-valid="13" lines-covered="13" branches-valid="2" branches-covered="2" branch-rate="1.00" complexity="0" version="1.0" timestamp="1517942265105">
+    <sources>
+        <source>--source</source>
+        <source>/home/knoldus/IdeaProjects/knolkartTest/checkout/src/main/scala</source>
+    </sources>
+    <packages>
+        <package name="operations" line-rate="1.00" branch-rate="1.00" complexity="0">
+            <classes>
+                <class 
+                name="operations.CheckoutOperations" filename="operations/CheckoutOperations.scala" line-rate="1.00" branch-rate="1.00" complexity="0">
+                    <methods>
+                        <method 
+                        name="operations/CheckoutOperations/buyItems" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="23" hits="1" branch="false"/>
+                                <line number="22" hits="1" branch="false"/>
+                                <line number="22" hits="1" branch="false"/>
+                                <line number="23" hits="1" branch="false"/>
+                            </lines>
+</method>
+                        <method 
+                        name="operations/CheckoutOperations/addItemsToKart" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="9" hits="1" branch="false"/>
+                            </lines>
+</method>
+                        <method 
+                        name="operations/CheckoutOperations/removeItemsFromKart" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="17" hits="1" branch="false"/>
+                                <line number="12" hits="1" branch="false"/>
+                                <line number="14" hits="1" branch="false"/>
+                                <line number="12" hits="1" branch="false"/>
+                                <line number="14" hits="1" branch="false"/>
+                                <line number="17" hits="1" branch="false"/>
+                                <line number="12" hits="1" branch="false"/>
+                                <line number="14" hits="1" branch="false"/>
+                            </lines>
+</method>
+                    </methods>
+                    <lines>
+                        <line number="17" hits="1" branch="false"/>
+                        <line number="23" hits="1" branch="false"/>
+                        <line number="12" hits="1" branch="false"/>
+                        <line number="14" hits="1" branch="false"/>
+                        <line number="12" hits="1" branch="false"/>
+                        <line number="22" hits="1" branch="false"/>
+                        <line number="14" hits="1" branch="false"/>
+                        <line number="9" hits="1" branch="false"/>
+                        <line number="22" hits="1" branch="false"/>
+                        <line number="17" hits="1" branch="false"/>
+                        <line number="12" hits="1" branch="false"/>
+                        <line number="23" hits="1" branch="false"/>
+                        <line number="14" hits="1" branch="false"/>
+                    </lines>
+</class>
+            </classes>
+        </package>
+    </packages>
+</coverage>

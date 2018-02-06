@@ -1,0 +1,588 @@
+<html>
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title id="title">
+          operations/UserOperations.scala.html
+        </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/css/theme.default.min.css" type="text/css"/><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/js/jquery.tablesorter.min.js"></script><link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" type="text/css"/><script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script><script type="text/javascript">
+        $(document).ready(function() {$(".tablesorter").tablesorter();});
+      </script>
+        <style>
+          table.codegrid { font-family: monospace; font-size: 12px; width: auto!important; }table.statementlist { width: auto!important; font-size: 13px; } table.codegrid td { padding: 0!important; border: 0!important } table td.linenumber { width: 40px!important; } 
+        </style>
+      </head>
+      <body style="font-family: monospace;">
+        <ul class="nav nav-tabs">
+          <li>
+            <a href="#codegrid" data-toggle="tab">Codegrid</a>
+          </li>
+          <li>
+            <a href="#statementlist" data-toggle="tab">Statement List</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="codegrid">
+            <pre style='font-size: 12pt; font-family: courier;'>1 <span style=''>package operations
+</span>2 <span style=''>
+</span>3 <span style=''>import entity.User
+</span>4 <span style=''>import resources.AccountResources
+</span>5 <span style=''>import org.apache.log4j.Logger
+</span>6 <span style=''>
+</span>7 <span style=''>class UserOperations extends AccountResources {
+</span>8 <span style=''>
+</span>9 <span style=''>  val log = </span><span style='background: #AEF1AE'>Logger.getLogger(this.getClass)</span><span style=''>
+</span>10 <span style=''>
+</span>11 <span style=''>  def addUser(userList: List[User],user: User): List[User] = {
+</span>12 <span style=''>    val userExist = </span><span style='background: #AEF1AE'>userList.exists(x =&gt; x.mobileNumber == user.mobileNumber)</span><span style=''>
+</span>13 <span style=''>    if (userExist) {
+</span>14 <span style=''>      </span><span style='background: #AEF1AE'>throw new Exception(&quot;Similar User exists,New user cannot be added&quot;)</span><span style=''>
+</span>15 <span style=''>    }
+</span>16 <span style=''>    else {
+</span>17 <span style=''>      </span><span style='background: #AEF1AE'>user :: userList</span><span style=''>
+</span>18 <span style=''>    }
+</span>19 <span style=''>  }
+</span>20 <span style=''>
+</span>21 <span style=''>  def removeUser(userList: List[User], user: User): List[User] = {
+</span>22 <span style=''>    val userExist = </span><span style='background: #AEF1AE'>userList.exists(x =&gt; x.mobileNumber == user.mobileNumber)</span><span style=''>
+</span>23 <span style=''>    if (userExist) {
+</span>24 <span style=''>      </span><span style='background: #AEF1AE'>userList diff List(user)</span><span style=''>
+</span>25 <span style=''>          }
+</span>26 <span style=''>    else {
+</span>27 <span style=''>      </span><span style='background: #AEF1AE'>throw new Exception(&quot;user does not exist &quot;)</span><span style=''>
+</span>28 <span style=''>    }
+</span>29 <span style=''>  }
+</span>30 <span style=''>
+</span>31 <span style=''>  def authenticateUser(username: String, password: String, userList: List[User]): Boolean = {
+</span>32 <span style=''>    val userExist = </span><span style='background: #AEF1AE'>userList.exists(x =&gt; (x.username == username) &amp;&amp; (x.password == password))</span><span style=''>
+</span>33 <span style=''>    if (userExist) {
+</span>34 <span style=''>      </span><span style='background: #AEF1AE'>true</span><span style=''>
+</span>35 <span style=''>    }
+</span>36 <span style=''>    else {
+</span>37 <span style=''>      </span><span style='background: #AEF1AE'>throw new Exception(&quot;user doesn't exist, no token can be generated&quot;)</span><span style=''>
+</span>38 <span style=''>    }
+</span>39 <span style=''>  }
+</span>40 <span style=''>}
+</span></pre>
+          </div>
+          <div class="tab-pane" id="statementlist">
+            <table cellspacing="0" cellpadding="0" class="table statementlist">
+      <tr>
+        <th>Line</th>
+        <th>Stmt Id</th>
+        <th>Pos</th>
+        <th>Tree</th>
+        <th>Symbol</th>
+        <th>Code</th>
+      </tr><tr>
+        <td>
+          9
+        </td>
+        <td>
+          2
+        </td>
+        <td>
+          166
+          -
+          197
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          org.apache.log4j.Logger.getLogger
+        </td>
+        <td style="background: #AEF1AE">
+          org.apache.log4j.Logger.getLogger(this.getClass())
+        </td>
+      </tr><tr>
+        <td>
+          9
+        </td>
+        <td>
+          1
+        </td>
+        <td>
+          183
+          -
+          196
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.lang.Object.getClass
+        </td>
+        <td style="background: #AEF1AE">
+          this.getClass()
+        </td>
+      </tr><tr>
+        <td>
+          12
+        </td>
+        <td>
+          5
+        </td>
+        <td>
+          282
+          -
+          339
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.LinearSeqOptimized.exists
+        </td>
+        <td style="background: #AEF1AE">
+          userList.exists(((x: entity.User) =&gt; x.mobileNumber.==(user.mobileNumber)))
+        </td>
+      </tr><tr>
+        <td>
+          12
+        </td>
+        <td>
+          4
+        </td>
+        <td>
+          303
+          -
+          338
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.lang.Object.==
+        </td>
+        <td style="background: #AEF1AE">
+          x.mobileNumber.==(user.mobileNumber)
+        </td>
+      </tr><tr>
+        <td>
+          12
+        </td>
+        <td>
+          3
+        </td>
+        <td>
+          321
+          -
+          338
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          entity.User.mobileNumber
+        </td>
+        <td style="background: #AEF1AE">
+          user.mobileNumber
+        </td>
+      </tr><tr>
+        <td>
+          14
+        </td>
+        <td>
+          7
+        </td>
+        <td>
+          367
+          -
+          434
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          throw new scala.`package`.Exception(&quot;Similar User exists,New user cannot be added&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          14
+        </td>
+        <td>
+          6
+        </td>
+        <td>
+          367
+          -
+          434
+        </td>
+        <td>
+          Throw
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          throw new scala.`package`.Exception(&quot;Similar User exists,New user cannot be added&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          17
+        </td>
+        <td>
+          8
+        </td>
+        <td>
+          463
+          -
+          474
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.immutable.List.::
+        </td>
+        <td style="background: #AEF1AE">
+          userList.::[entity.User](x$1)
+        </td>
+      </tr><tr>
+        <td>
+          17
+        </td>
+        <td>
+          9
+        </td>
+        <td>
+          458
+          -
+          474
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          {
+  &lt;synthetic&gt; &lt;artifact&gt; val x$1: entity.User = user;
+  userList.::[entity.User](x$1)
+}
+        </td>
+      </tr><tr>
+        <td>
+          22
+        </td>
+        <td>
+          11
+        </td>
+        <td>
+          594
+          -
+          629
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.lang.Object.==
+        </td>
+        <td style="background: #AEF1AE">
+          x.mobileNumber.==(user.mobileNumber)
+        </td>
+      </tr><tr>
+        <td>
+          22
+        </td>
+        <td>
+          10
+        </td>
+        <td>
+          612
+          -
+          629
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          entity.User.mobileNumber
+        </td>
+        <td style="background: #AEF1AE">
+          user.mobileNumber
+        </td>
+      </tr><tr>
+        <td>
+          22
+        </td>
+        <td>
+          12
+        </td>
+        <td>
+          573
+          -
+          630
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.LinearSeqOptimized.exists
+        </td>
+        <td style="background: #AEF1AE">
+          userList.exists(((x: entity.User) =&gt; x.mobileNumber.==(user.mobileNumber)))
+        </td>
+      </tr><tr>
+        <td>
+          24
+        </td>
+        <td>
+          14
+        </td>
+        <td>
+          658
+          -
+          682
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.SeqLike.diff
+        </td>
+        <td style="background: #AEF1AE">
+          userList.diff[entity.User](scala.collection.immutable.List.apply[entity.User](user))
+        </td>
+      </tr><tr>
+        <td>
+          24
+        </td>
+        <td>
+          13
+        </td>
+        <td>
+          672
+          -
+          682
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.immutable.List.apply
+        </td>
+        <td style="background: #AEF1AE">
+          scala.collection.immutable.List.apply[entity.User](user)
+        </td>
+      </tr><tr>
+        <td>
+          24
+        </td>
+        <td>
+          15
+        </td>
+        <td>
+          658
+          -
+          682
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          scala.collection.SeqLike.diff
+        </td>
+        <td style="background: #AEF1AE">
+          userList.diff[entity.User](scala.collection.immutable.List.apply[entity.User](user))
+        </td>
+      </tr><tr>
+        <td>
+          27
+        </td>
+        <td>
+          17
+        </td>
+        <td>
+          712
+          -
+          755
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          throw new scala.`package`.Exception(&quot;user does not exist &quot;)
+        </td>
+      </tr><tr>
+        <td>
+          27
+        </td>
+        <td>
+          16
+        </td>
+        <td>
+          712
+          -
+          755
+        </td>
+        <td>
+          Throw
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          throw new scala.`package`.Exception(&quot;user does not exist &quot;)
+        </td>
+      </tr><tr>
+        <td>
+          32
+        </td>
+        <td>
+          20
+        </td>
+        <td>
+          881
+          -
+          955
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.LinearSeqOptimized.exists
+        </td>
+        <td style="background: #AEF1AE">
+          userList.exists(((x: entity.User) =&gt; x.username.==(username).&amp;&amp;(x.password.==(password))))
+        </td>
+      </tr><tr>
+        <td>
+          32
+        </td>
+        <td>
+          19
+        </td>
+        <td>
+          902
+          -
+          954
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Boolean.&amp;&amp;
+        </td>
+        <td style="background: #AEF1AE">
+          x.username.==(username).&amp;&amp;(x.password.==(password))
+        </td>
+      </tr><tr>
+        <td>
+          32
+        </td>
+        <td>
+          18
+        </td>
+        <td>
+          931
+          -
+          953
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.lang.Object.==
+        </td>
+        <td style="background: #AEF1AE">
+          x.password.==(password)
+        </td>
+      </tr><tr>
+        <td>
+          34
+        </td>
+        <td>
+          22
+        </td>
+        <td>
+          983
+          -
+          987
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          true
+        </td>
+      </tr><tr>
+        <td>
+          34
+        </td>
+        <td>
+          21
+        </td>
+        <td>
+          983
+          -
+          987
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          true
+        </td>
+      </tr><tr>
+        <td>
+          37
+        </td>
+        <td>
+          23
+        </td>
+        <td>
+          1011
+          -
+          1079
+        </td>
+        <td>
+          Throw
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          throw new scala.`package`.Exception(&quot;user doesn\'t exist, no token can be generated&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          37
+        </td>
+        <td>
+          24
+        </td>
+        <td>
+          1011
+          -
+          1079
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          throw new scala.`package`.Exception(&quot;user doesn\'t exist, no token can be generated&quot;)
+        </td>
+      </tr>
+    </table>
+          </div>
+        </div>
+      </body>
+    </html>

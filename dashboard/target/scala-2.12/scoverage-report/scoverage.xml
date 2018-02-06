@@ -1,0 +1,95 @@
+<scoverage 
+statement-count="22" statements-invoked="0" statement-rate="0.00" branch-rate="0.00" version="1.0" timestamp="1517942266132">
+    <packages>
+        <package name="operations" statement-count="22" statements-invoked="0" statement-rate="0.00">
+            <classes>
+                <class 
+                name="operations.InventoryOperations" filename="operations/InventoryOperations.scala" statement-count="22" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="operations/InventoryOperations/addItem" statement-count="7" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="operations" class="InventoryOperations" class-type="Class" full-class-name="operations.InventoryOperations" source="/home/knoldus/IdeaProjects/knolkartTest/dashboard/src/main/scala/operations/InventoryOperations.scala" method="addItem" start="238" end="261" line="9" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="InventoryOperations" class-type="Class" full-class-name="operations.InventoryOperations" source="/home/knoldus/IdeaProjects/knolkartTest/dashboard/src/main/scala/operations/InventoryOperations.scala" method="addItem" start="292" end="361" line="11" branch="true" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="InventoryOperations" class-type="Class" full-class-name="operations.InventoryOperations" source="/home/knoldus/IdeaProjects/knolkartTest/dashboard/src/main/scala/operations/InventoryOperations.scala" method="addItem" start="292" end="361" line="11" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="InventoryOperations" class-type="Class" full-class-name="operations.InventoryOperations" source="/home/knoldus/IdeaProjects/knolkartTest/dashboard/src/main/scala/operations/InventoryOperations.scala" method="addItem" start="385" end="401" line="14" branch="true" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="InventoryOperations" class-type="Class" full-class-name="operations.InventoryOperations" source="/home/knoldus/IdeaProjects/knolkartTest/dashboard/src/main/scala/operations/InventoryOperations.scala" method="addItem" start="250" end="261" line="9" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="InventoryOperations" class-type="Class" full-class-name="operations.InventoryOperations" source="/home/knoldus/IdeaProjects/knolkartTest/dashboard/src/main/scala/operations/InventoryOperations.scala" method="addItem" start="217" end="262" line="9" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="InventoryOperations" class-type="Class" full-class-name="operations.InventoryOperations" source="/home/knoldus/IdeaProjects/knolkartTest/dashboard/src/main/scala/operations/InventoryOperations.scala" method="addItem" start="390" end="401" line="14" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="operations/InventoryOperations/sortItems" statement-count="9" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="operations" class="InventoryOperations" class-type="Class" full-class-name="operations.InventoryOperations" source="/home/knoldus/IdeaProjects/knolkartTest/dashboard/src/main/scala/operations/InventoryOperations.scala" method="sortItems" start="847" end="909" line="30" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="InventoryOperations" class-type="Class" full-class-name="operations.InventoryOperations" source="/home/knoldus/IdeaProjects/knolkartTest/dashboard/src/main/scala/operations/InventoryOperations.scala" method="sortItems" start="969" end="994" line="33" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="InventoryOperations" class-type="Class" full-class-name="operations.InventoryOperations" source="/home/knoldus/IdeaProjects/knolkartTest/dashboard/src/main/scala/operations/InventoryOperations.scala" method="sortItems" start="808" end="837" line="29" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="InventoryOperations" class-type="Class" full-class-name="operations.InventoryOperations" source="/home/knoldus/IdeaProjects/knolkartTest/dashboard/src/main/scala/operations/InventoryOperations.scala" method="sortItems" start="933" end="995" line="33" branch="true" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="InventoryOperations" class-type="Class" full-class-name="operations.InventoryOperations" source="/home/knoldus/IdeaProjects/knolkartTest/dashboard/src/main/scala/operations/InventoryOperations.scala" method="sortItems" start="883" end="908" line="30" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="InventoryOperations" class-type="Class" full-class-name="operations.InventoryOperations" source="/home/knoldus/IdeaProjects/knolkartTest/dashboard/src/main/scala/operations/InventoryOperations.scala" method="sortItems" start="983" end="994" line="33" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="InventoryOperations" class-type="Class" full-class-name="operations.InventoryOperations" source="/home/knoldus/IdeaProjects/knolkartTest/dashboard/src/main/scala/operations/InventoryOperations.scala" method="sortItems" start="847" end="909" line="30" branch="true" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="InventoryOperations" class-type="Class" full-class-name="operations.InventoryOperations" source="/home/knoldus/IdeaProjects/knolkartTest/dashboard/src/main/scala/operations/InventoryOperations.scala" method="sortItems" start="933" end="995" line="33" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="InventoryOperations" class-type="Class" full-class-name="operations.InventoryOperations" source="/home/knoldus/IdeaProjects/knolkartTest/dashboard/src/main/scala/operations/InventoryOperations.scala" method="sortItems" start="897" end="908" line="30" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="operations/InventoryOperations/searchItems" statement-count="6" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="operations" class="InventoryOperations" class-type="Class" full-class-name="operations.InventoryOperations" source="/home/knoldus/IdeaProjects/knolkartTest/dashboard/src/main/scala/operations/InventoryOperations.scala" method="searchItems" start="539" end="565" line="19" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="InventoryOperations" class-type="Class" full-class-name="operations.InventoryOperations" source="/home/knoldus/IdeaProjects/knolkartTest/dashboard/src/main/scala/operations/InventoryOperations.scala" method="searchItems" start="609" end="656" line="21" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="InventoryOperations" class-type="Class" full-class-name="operations.InventoryOperations" source="/home/knoldus/IdeaProjects/knolkartTest/dashboard/src/main/scala/operations/InventoryOperations.scala" method="searchItems" start="680" end="696" line="24" branch="true" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="InventoryOperations" class-type="Class" full-class-name="operations.InventoryOperations" source="/home/knoldus/IdeaProjects/knolkartTest/dashboard/src/main/scala/operations/InventoryOperations.scala" method="searchItems" start="575" end="599" line="20" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="InventoryOperations" class-type="Class" full-class-name="operations.InventoryOperations" source="/home/knoldus/IdeaProjects/knolkartTest/dashboard/src/main/scala/operations/InventoryOperations.scala" method="searchItems" start="518" end="566" line="19" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="InventoryOperations" class-type="Class" full-class-name="operations.InventoryOperations" source="/home/knoldus/IdeaProjects/knolkartTest/dashboard/src/main/scala/operations/InventoryOperations.scala" method="searchItems" start="609" end="656" line="21" branch="true" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+    </packages>
+</scoverage>

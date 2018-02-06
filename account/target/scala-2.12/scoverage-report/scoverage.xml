@@ -1,0 +1,106 @@
+<scoverage 
+statement-count="24" statements-invoked="24" statement-rate="100.00" branch-rate="100.00" version="1.0" timestamp="1517942264692">
+    <packages>
+        <package name="operations" statement-count="24" statements-invoked="24" statement-rate="100.00">
+            <classes>
+                <class 
+                name="operations.UserOperations" filename="operations/UserOperations.scala" statement-count="24" statements-invoked="24" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="operations/UserOperations/&lt;none&gt;" statement-count="2" statements-invoked="2" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="operations" class="UserOperations" class-type="Class" full-class-name="operations.UserOperations" source="/home/knoldus/IdeaProjects/knolkartTest/account/src/main/scala/operations/UserOperations.scala" method="&lt;none&gt;" start="166" end="197" line="9" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="UserOperations" class-type="Class" full-class-name="operations.UserOperations" source="/home/knoldus/IdeaProjects/knolkartTest/account/src/main/scala/operations/UserOperations.scala" method="&lt;none&gt;" start="183" end="196" line="9" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="operations/UserOperations/removeUser" statement-count="8" statements-invoked="8" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="operations" class="UserOperations" class-type="Class" full-class-name="operations.UserOperations" source="/home/knoldus/IdeaProjects/knolkartTest/account/src/main/scala/operations/UserOperations.scala" method="removeUser" start="712" end="755" line="27" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="UserOperations" class-type="Class" full-class-name="operations.UserOperations" source="/home/knoldus/IdeaProjects/knolkartTest/account/src/main/scala/operations/UserOperations.scala" method="removeUser" start="594" end="629" line="22" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="UserOperations" class-type="Class" full-class-name="operations.UserOperations" source="/home/knoldus/IdeaProjects/knolkartTest/account/src/main/scala/operations/UserOperations.scala" method="removeUser" start="658" end="682" line="24" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="UserOperations" class-type="Class" full-class-name="operations.UserOperations" source="/home/knoldus/IdeaProjects/knolkartTest/account/src/main/scala/operations/UserOperations.scala" method="removeUser" start="672" end="682" line="24" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="UserOperations" class-type="Class" full-class-name="operations.UserOperations" source="/home/knoldus/IdeaProjects/knolkartTest/account/src/main/scala/operations/UserOperations.scala" method="removeUser" start="712" end="755" line="27" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="UserOperations" class-type="Class" full-class-name="operations.UserOperations" source="/home/knoldus/IdeaProjects/knolkartTest/account/src/main/scala/operations/UserOperations.scala" method="removeUser" start="612" end="629" line="22" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="UserOperations" class-type="Class" full-class-name="operations.UserOperations" source="/home/knoldus/IdeaProjects/knolkartTest/account/src/main/scala/operations/UserOperations.scala" method="removeUser" start="573" end="630" line="22" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="UserOperations" class-type="Class" full-class-name="operations.UserOperations" source="/home/knoldus/IdeaProjects/knolkartTest/account/src/main/scala/operations/UserOperations.scala" method="removeUser" start="658" end="682" line="24" branch="true" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="operations/UserOperations/authenticateUser" statement-count="7" statements-invoked="7" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="operations" class="UserOperations" class-type="Class" full-class-name="operations.UserOperations" source="/home/knoldus/IdeaProjects/knolkartTest/account/src/main/scala/operations/UserOperations.scala" method="authenticateUser" start="1011" end="1079" line="37" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="UserOperations" class-type="Class" full-class-name="operations.UserOperations" source="/home/knoldus/IdeaProjects/knolkartTest/account/src/main/scala/operations/UserOperations.scala" method="authenticateUser" start="881" end="955" line="32" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="UserOperations" class-type="Class" full-class-name="operations.UserOperations" source="/home/knoldus/IdeaProjects/knolkartTest/account/src/main/scala/operations/UserOperations.scala" method="authenticateUser" start="983" end="987" line="34" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="UserOperations" class-type="Class" full-class-name="operations.UserOperations" source="/home/knoldus/IdeaProjects/knolkartTest/account/src/main/scala/operations/UserOperations.scala" method="authenticateUser" start="902" end="954" line="32" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="UserOperations" class-type="Class" full-class-name="operations.UserOperations" source="/home/knoldus/IdeaProjects/knolkartTest/account/src/main/scala/operations/UserOperations.scala" method="authenticateUser" start="931" end="953" line="32" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="UserOperations" class-type="Class" full-class-name="operations.UserOperations" source="/home/knoldus/IdeaProjects/knolkartTest/account/src/main/scala/operations/UserOperations.scala" method="authenticateUser" start="983" end="987" line="34" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="UserOperations" class-type="Class" full-class-name="operations.UserOperations" source="/home/knoldus/IdeaProjects/knolkartTest/account/src/main/scala/operations/UserOperations.scala" method="authenticateUser" start="1011" end="1079" line="37" branch="true" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="operations/UserOperations/addUser" statement-count="7" statements-invoked="7" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="operations" class="UserOperations" class-type="Class" full-class-name="operations.UserOperations" source="/home/knoldus/IdeaProjects/knolkartTest/account/src/main/scala/operations/UserOperations.scala" method="addUser" start="463" end="474" line="17" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="UserOperations" class-type="Class" full-class-name="operations.UserOperations" source="/home/knoldus/IdeaProjects/knolkartTest/account/src/main/scala/operations/UserOperations.scala" method="addUser" start="282" end="339" line="12" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="UserOperations" class-type="Class" full-class-name="operations.UserOperations" source="/home/knoldus/IdeaProjects/knolkartTest/account/src/main/scala/operations/UserOperations.scala" method="addUser" start="303" end="338" line="12" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="UserOperations" class-type="Class" full-class-name="operations.UserOperations" source="/home/knoldus/IdeaProjects/knolkartTest/account/src/main/scala/operations/UserOperations.scala" method="addUser" start="367" end="434" line="14" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="UserOperations" class-type="Class" full-class-name="operations.UserOperations" source="/home/knoldus/IdeaProjects/knolkartTest/account/src/main/scala/operations/UserOperations.scala" method="addUser" start="458" end="474" line="17" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="UserOperations" class-type="Class" full-class-name="operations.UserOperations" source="/home/knoldus/IdeaProjects/knolkartTest/account/src/main/scala/operations/UserOperations.scala" method="addUser" start="321" end="338" line="12" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="UserOperations" class-type="Class" full-class-name="operations.UserOperations" source="/home/knoldus/IdeaProjects/knolkartTest/account/src/main/scala/operations/UserOperations.scala" method="addUser" start="367" end="434" line="14" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+    </packages>
+</scoverage>

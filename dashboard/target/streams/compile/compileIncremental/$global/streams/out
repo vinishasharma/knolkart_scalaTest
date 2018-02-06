@@ -1,17 +1,53 @@
-[0m[[0m[0mdebug[0m] [0m[0mFull compilation, no sources in previous analysis.[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll sources are invalidated.[0m
-[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 2 sources: invalidated sources (2) exceeded 50.0% of all sources[0m
-[0m[[0m[0minfo[0m] [0m[0mCompiling 2 Scala sources to /home/knoldus/IdeaProjects/knolkartTest/dashboard/target/scala-2.12/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating /home/knoldus/.ivy2/cache/org.scoverage/scalac-scoverage-runtime_2.12/jars/scalac-scoverage-runtime_2.12-1.3.1.jar: could not find class scoverage.Invoker$ on the classpath.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set(/home/knoldus/IdeaProjects/knolkartTest/dashboard/src/main/scala/operations/InventoryOperations.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set(/home/knoldus/IdeaProjects/knolkartTest/dashboard/src/main/scala/operations/DashBoardOperations.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set(/home/knoldus/.ivy2/cache/org.scoverage/scalac-scoverage-runtime_2.12/jars/scalac-scoverage-runtime_2.12-1.3.1.jar)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(operations.InventoryOperations)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set(/home/knoldus/IdeaProjects/knolkartTest/dashboard/src/main/scala/operations/InventoryOperations.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(operations.InventoryOperations)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/home/knoldus/IdeaProjects/knolkartTest/dashboard/src/main/scala/operations/DashBoardOperations.scala, /home/knoldus/IdeaProjects/knolkartTest/dashboard/src/main/scala/operations/InventoryOperations.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 1 sources: invalidated sources (2) exceeded 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to /home/knoldus/IdeaProjects/knolkartTest/dashboard/target/scala-2.12/classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.0:compile for Scala 2.12.4[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.0:compile for Scala 2.12.4[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 321ad8cb for Scala compiler version 2.12.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 254d0c0c for Scala compiler version 2.12.4[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-Xplugin:/home/knoldus/.ivy2/cache/org.scoverage/scalac-scoverage-plugin_2.12/jars/scalac-scoverage-plugin_2.12-1.3.1.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-P:scoverage:dataDir:/home/knoldus/IdeaProjects/knolkartTest/dashboard/target/scala-2.12/scoverage-data[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-Yrangepos[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/knoldus/.sbt/boot/scala-2.12.4/lib/scala-library.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/home/knoldus/IdeaProjects/knolkartTest/dashboard/target/scala-2.12/classes:/home/knoldus/IdeaProjects/knolkartTest/apiResources/target/scala-2.12/classes:/home/knoldus/IdeaProjects/knolkartTest/inventory/target/scala-2.12/classes:/home/knoldus/IdeaProjects/knolkartTest/account/target/scala-2.12/classes:/home/knoldus/IdeaProjects/knolkartTest/checkout/target/scala-2.12/classes:/home/knoldus/.ivy2/cache/org.scoverage/scalac-scoverage-runtime_2.12/jars/scalac-scoverage-runtime_2.12-1.3.1.jar:/home/knoldus/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 1.530285319 s[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/knoldus/IdeaProjects/knolkartTest/dashboard/target/scala-2.12/classes:/home/knoldus/IdeaProjects/knolkartTest/apiResources/target/scala-2.12/classes:/home/knoldus/IdeaProjects/knolkartTest/inventory/target/scala-2.12/classes:/home/knoldus/IdeaProjects/knolkartTest/account/target/scala-2.12/classes:/home/knoldus/IdeaProjects/knolkartTest/checkout/target/scala-2.12/classes:/home/knoldus/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 1.09648242 s[0m
 [0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from operations.InventoryOperations...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(operations.InventoryOperations)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(operations.InventoryOperations)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(operations.InventoryOperations,ModifiedNames(changes = UsedName(toString,[Default]), UsedName($isInstanceOf,[Default]), UsedName(equals,[Default]), UsedName(wait,[Default]), UsedName(operations;InventoryOperations;init;,[Default]), UsedName(sortItems$default$2,[Default]), UsedName(asInstanceOf,[Default]), UsedName(hashCode,[Default]), UsedName(synchronized,[Default]), UsedName($asInstanceOf,[Default]), UsedName(notifyAll,[Default]), UsedName(searchItems,[Default]), UsedName(!=,[Default]), UsedName(sortItems,[Default]), UsedName(getClass,[Default]), UsedName(##,[Default]), UsedName(eq,[Default]), UsedName(clone,[Default]), UsedName(addItem,[Default]), UsedName(finalize,[Default]), UsedName(InventoryOperations,[Default]), UsedName(notify,[Default]), UsedName(ne,[Default]), UsedName(==,[Default]), UsedName(isInstanceOf,[Default]))) invalidates 1 classes due to The operations.InventoryOperations has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(toString,[Default]), UsedName($isInstanceOf,[Default]), UsedName(equals,[Default]), UsedName(wait,[Default]), UsedName(operations;InventoryOperations;init;,[Default]), UsedName(sortItems$default$2,[Default]), UsedName(asInstanceOf,[Default]), UsedName(hashCode,[Default]), UsedName(synchronized,[Default]), UsedName($asInstanceOf,[Default]), UsedName(notifyAll,[Default]), UsedName(searchItems,[Default]), UsedName(!=,[Default]), UsedName(sortItems,[Default]), UsedName(getClass,[Default]), UsedName(##,[Default]), UsedName(eq,[Default]), UsedName(clone,[Default]), UsedName(addItem,[Default]), UsedName(finalize,[Default]), UsedName(InventoryOperations,[Default]), UsedName(notify,[Default]), UsedName(ne,[Default]), UsedName(==,[Default]), UsedName(isInstanceOf,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(operations.InventoryOperations)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from operations.DashBoardOperations...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(operations.DashBoardOperations)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(operations.DashBoardOperations)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(operations.DashBoardOperations,ModifiedNames(changes = UsedName(toString,[Default]), UsedName($isInstanceOf,[Default]), UsedName(equals,[Default]), UsedName(wait,[Default]), UsedName(asInstanceOf,[Default]), UsedName(hashCode,[Default]), UsedName(operations;DashBoardOperations;init;,[Default]), UsedName(synchronized,[Default]), UsedName($asInstanceOf,[Default]), UsedName(notifyAll,[Default]), UsedName(!=,[Default]), UsedName(DashBoardOperations,[Default]), UsedName(getClass,[Default]), UsedName(##,[Default]), UsedName(eq,[Default]), UsedName(clone,[Default]), UsedName(finalize,[Default]), UsedName(notify,[Default]), UsedName(ne,[Default]), UsedName(==,[Default]), UsedName(isInstanceOf,[Default]))) invalidates 1 classes due to The operations.DashBoardOperations has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(toString,[Default]), UsedName($isInstanceOf,[Default]), UsedName(equals,[Default]), UsedName(wait,[Default]), UsedName(asInstanceOf,[Default]), UsedName(hashCode,[Default]), UsedName(operations;DashBoardOperations;init;,[Default]), UsedName(synchronized,[Default]), UsedName($asInstanceOf,[Default]), UsedName(notifyAll,[Default]), UsedName(!=,[Default]), UsedName(DashBoardOperations,[Default]), UsedName(getClass,[Default]), UsedName(##,[Default]), UsedName(eq,[Default]), UsedName(clone,[Default]), UsedName(finalize,[Default]), UsedName(notify,[Default]), UsedName(ne,[Default]), UsedName(==,[Default]), UsedName(isInstanceOf,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(operations.DashBoardOperations)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll newly invalidated classes after taking into account (previously) recompiled classes:Set()[0m

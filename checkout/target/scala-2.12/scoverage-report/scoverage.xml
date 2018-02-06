@@ -1,0 +1,68 @@
+<scoverage 
+statement-count="13" statements-invoked="13" statement-rate="100.00" branch-rate="100.00" version="1.0" timestamp="1517942265118">
+    <packages>
+        <package name="operations" statement-count="13" statements-invoked="13" statement-rate="100.00">
+            <classes>
+                <class 
+                name="operations.CheckoutOperations" filename="operations/CheckoutOperations.scala" statement-count="13" statements-invoked="13" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="operations/CheckoutOperations/buyItems" statement-count="4" statements-invoked="4" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="operations" class="CheckoutOperations" class-type="Class" full-class-name="operations.CheckoutOperations" source="/home/knoldus/IdeaProjects/knolkartTest/checkout/src/main/scala/operations/CheckoutOperations.scala" method="buyItems" start="628" end="638" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="CheckoutOperations" class-type="Class" full-class-name="operations.CheckoutOperations" source="/home/knoldus/IdeaProjects/knolkartTest/checkout/src/main/scala/operations/CheckoutOperations.scala" method="buyItems" start="562" end="645" line="22" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="CheckoutOperations" class-type="Class" full-class-name="operations.CheckoutOperations" source="/home/knoldus/IdeaProjects/knolkartTest/checkout/src/main/scala/operations/CheckoutOperations.scala" method="buyItems" start="580" end="583" line="22" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="CheckoutOperations" class-type="Class" full-class-name="operations.CheckoutOperations" source="/home/knoldus/IdeaProjects/knolkartTest/checkout/src/main/scala/operations/CheckoutOperations.scala" method="buyItems" start="615" end="638" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="operations/CheckoutOperations/addItemsToKart" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="operations" class="CheckoutOperations" class-type="Class" full-class-name="operations.CheckoutOperations" source="/home/knoldus/IdeaProjects/knolkartTest/checkout/src/main/scala/operations/CheckoutOperations.scala" method="addItemsToKart" start="206" end="217" line="9" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="operations/CheckoutOperations/removeItemsFromKart" statement-count="8" statements-invoked="8" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="operations" class="CheckoutOperations" class-type="Class" full-class-name="operations.CheckoutOperations" source="/home/knoldus/IdeaProjects/knolkartTest/checkout/src/main/scala/operations/CheckoutOperations.scala" method="removeItemsFromKart" start="436" end="479" line="17" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="CheckoutOperations" class-type="Class" full-class-name="operations.CheckoutOperations" source="/home/knoldus/IdeaProjects/knolkartTest/checkout/src/main/scala/operations/CheckoutOperations.scala" method="removeItemsFromKart" start="348" end="359" line="12" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="CheckoutOperations" class-type="Class" full-class-name="operations.CheckoutOperations" source="/home/knoldus/IdeaProjects/knolkartTest/checkout/src/main/scala/operations/CheckoutOperations.scala" method="removeItemsFromKart" start="402" end="412" line="14" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="CheckoutOperations" class-type="Class" full-class-name="operations.CheckoutOperations" source="/home/knoldus/IdeaProjects/knolkartTest/checkout/src/main/scala/operations/CheckoutOperations.scala" method="removeItemsFromKart" start="315" end="360" line="12" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="CheckoutOperations" class-type="Class" full-class-name="operations.CheckoutOperations" source="/home/knoldus/IdeaProjects/knolkartTest/checkout/src/main/scala/operations/CheckoutOperations.scala" method="removeItemsFromKart" start="388" end="412" line="14" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="CheckoutOperations" class-type="Class" full-class-name="operations.CheckoutOperations" source="/home/knoldus/IdeaProjects/knolkartTest/checkout/src/main/scala/operations/CheckoutOperations.scala" method="removeItemsFromKart" start="436" end="479" line="17" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="CheckoutOperations" class-type="Class" full-class-name="operations.CheckoutOperations" source="/home/knoldus/IdeaProjects/knolkartTest/checkout/src/main/scala/operations/CheckoutOperations.scala" method="removeItemsFromKart" start="336" end="359" line="12" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="operations" class="CheckoutOperations" class-type="Class" full-class-name="operations.CheckoutOperations" source="/home/knoldus/IdeaProjects/knolkartTest/checkout/src/main/scala/operations/CheckoutOperations.scala" method="removeItemsFromKart" start="388" end="412" line="14" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+    </packages>
+</scoverage>

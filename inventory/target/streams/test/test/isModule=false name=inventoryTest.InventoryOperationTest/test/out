@@ -1,3 +1,10 @@
 [0m[[0m[0minfo[0m] [0m[0m[32mInventoryOperationTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31minventoryTest.InventoryOperationTest *** ABORTED ***[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  Duplicate test name: sortItem function should sort item based on criteria given (InventoryOperationTest.scala:33)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32maddItem function[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should add new item to the existing item list[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should new item cannot be added exception[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32msearch Item function[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should search item based on a category[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should give no such category exists exception[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32msortItem function[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should sort item based on criteria given[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should sort item from high to low based on criteria given[0m[0m

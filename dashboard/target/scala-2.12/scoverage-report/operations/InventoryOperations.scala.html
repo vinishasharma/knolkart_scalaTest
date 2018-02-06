@@ -1,0 +1,542 @@
+<html>
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title id="title">
+          operations/InventoryOperations.scala.html
+        </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/css/theme.default.min.css" type="text/css"/><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/js/jquery.tablesorter.min.js"></script><link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" type="text/css"/><script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script><script type="text/javascript">
+        $(document).ready(function() {$(".tablesorter").tablesorter();});
+      </script>
+        <style>
+          table.codegrid { font-family: monospace; font-size: 12px; width: auto!important; }table.statementlist { width: auto!important; font-size: 13px; } table.codegrid td { padding: 0!important; border: 0!important } table td.linenumber { width: 40px!important; } 
+        </style>
+      </head>
+      <body style="font-family: monospace;">
+        <ul class="nav nav-tabs">
+          <li>
+            <a href="#codegrid" data-toggle="tab">Codegrid</a>
+          </li>
+          <li>
+            <a href="#statementlist" data-toggle="tab">Statement List</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="codegrid">
+            <pre style='font-size: 12pt; font-family: courier;'>1 <span style=''>package operations
+</span>2 <span style=''>
+</span>3 <span style=''>import entity.Item
+</span>4 <span style=''>import resources.InventoryResources
+</span>5 <span style=''>
+</span>6 <span style=''>class InventoryOperations extends InventoryResources {
+</span>7 <span style=''>
+</span>8 <span style=''>  def addItem(itemList: List[Item],item: Item): List[Item] = {
+</span>9 <span style=''>    val itemIdExist = </span><span style='background: #F0ADAD'>itemList.exists(x =&gt; x.itemID == item.itemID)</span><span style=''>
+</span>10 <span style=''>    if (itemIdExist) {
+</span>11 <span style=''>      </span><span style='background: #F0ADAD'>throw new Exception(&quot;similnar ID already exist, item can't be added&quot;)</span><span style=''>
+</span>12 <span style=''>    }
+</span>13 <span style=''>    else {
+</span>14 <span style=''>      </span><span style='background: #F0ADAD'>item :: itemList</span><span style=''>
+</span>15 <span style=''>    }
+</span>16 <span style=''>  }
+</span>17 <span style=''>
+</span>18 <span style=''>  def searchItems(itemList: List[Item], itemCategory: String): List[Item] = {
+</span>19 <span style=''>    val searchedItemList = </span><span style='background: #F0ADAD'>itemList.filter(x =&gt; x.category == itemCategory)</span><span style=''>
+</span>20 <span style=''>    if (</span><span style='background: #F0ADAD'>searchedItemList.isEmpty</span><span style=''>) {
+</span>21 <span style=''>      </span><span style='background: #F0ADAD'>throw new Exception(&quot;No such category present&quot;)</span><span style=''>
+</span>22 <span style=''>    }
+</span>23 <span style=''>    else {
+</span>24 <span style=''>      </span><span style='background: #F0ADAD'>searchedItemList</span><span style=''>
+</span>25 <span style=''>    }
+</span>26 <span style=''>  }
+</span>27 <span style=''>
+</span>28 <span style=''>  def sortItems(itemList: List[Item], sortCriteria: String = &quot;high to low&quot;): List[Item] = {
+</span>29 <span style=''>    if (</span><span style='background: #F0ADAD'>sortCriteria == &quot;high to low&quot;</span><span style=''>) {
+</span>30 <span style=''>      </span><span style='background: #F0ADAD'>itemList.sortWith((item1, item2) =&gt; item1.price &gt; item2.price)</span><span style=''>
+</span>31 <span style=''>    }
+</span>32 <span style=''>    else {
+</span>33 <span style=''>      </span><span style='background: #F0ADAD'>itemList.sortWith((item1, item2) =&gt; item1.price &lt; item2.price)</span><span style=''>
+</span>34 <span style=''>    }
+</span>35 <span style=''>  }
+</span>36 <span style=''>}
+</span></pre>
+          </div>
+          <div class="tab-pane" id="statementlist">
+            <table cellspacing="0" cellpadding="0" class="table statementlist">
+      <tr>
+        <th>Line</th>
+        <th>Stmt Id</th>
+        <th>Pos</th>
+        <th>Tree</th>
+        <th>Symbol</th>
+        <th>Code</th>
+      </tr><tr>
+        <td>
+          9
+        </td>
+        <td>
+          2
+        </td>
+        <td>
+          238
+          -
+          261
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Int.==
+        </td>
+        <td style="background: #F0ADAD">
+          x.itemID.==(item.itemID)
+        </td>
+      </tr><tr>
+        <td>
+          9
+        </td>
+        <td>
+          1
+        </td>
+        <td>
+          250
+          -
+          261
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          entity.Item.itemID
+        </td>
+        <td style="background: #F0ADAD">
+          item.itemID
+        </td>
+      </tr><tr>
+        <td>
+          9
+        </td>
+        <td>
+          3
+        </td>
+        <td>
+          217
+          -
+          262
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.LinearSeqOptimized.exists
+        </td>
+        <td style="background: #F0ADAD">
+          itemList.exists(((x: entity.Item) =&gt; x.itemID.==(item.itemID)))
+        </td>
+      </tr><tr>
+        <td>
+          11
+        </td>
+        <td>
+          5
+        </td>
+        <td>
+          292
+          -
+          361
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #F0ADAD">
+          throw new scala.`package`.Exception(&quot;similnar ID already exist, item can\'t be added&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          11
+        </td>
+        <td>
+          4
+        </td>
+        <td>
+          292
+          -
+          361
+        </td>
+        <td>
+          Throw
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #F0ADAD">
+          throw new scala.`package`.Exception(&quot;similnar ID already exist, item can\'t be added&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          14
+        </td>
+        <td>
+          7
+        </td>
+        <td>
+          385
+          -
+          401
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #F0ADAD">
+          {
+  &lt;synthetic&gt; &lt;artifact&gt; val x$1: entity.Item = item;
+  itemList.::[entity.Item](x$1)
+}
+        </td>
+      </tr><tr>
+        <td>
+          14
+        </td>
+        <td>
+          6
+        </td>
+        <td>
+          390
+          -
+          401
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.immutable.List.::
+        </td>
+        <td style="background: #F0ADAD">
+          itemList.::[entity.Item](x$1)
+        </td>
+      </tr><tr>
+        <td>
+          19
+        </td>
+        <td>
+          8
+        </td>
+        <td>
+          539
+          -
+          565
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.lang.Object.==
+        </td>
+        <td style="background: #F0ADAD">
+          x.category.==(itemCategory)
+        </td>
+      </tr><tr>
+        <td>
+          19
+        </td>
+        <td>
+          9
+        </td>
+        <td>
+          518
+          -
+          566
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.TraversableLike.filter
+        </td>
+        <td style="background: #F0ADAD">
+          itemList.filter(((x: entity.Item) =&gt; x.category.==(itemCategory)))
+        </td>
+      </tr><tr>
+        <td>
+          20
+        </td>
+        <td>
+          10
+        </td>
+        <td>
+          575
+          -
+          599
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          scala.collection.SeqLike.isEmpty
+        </td>
+        <td style="background: #F0ADAD">
+          searchedItemList.isEmpty
+        </td>
+      </tr><tr>
+        <td>
+          21
+        </td>
+        <td>
+          11
+        </td>
+        <td>
+          609
+          -
+          656
+        </td>
+        <td>
+          Throw
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #F0ADAD">
+          throw new scala.`package`.Exception(&quot;No such category present&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          21
+        </td>
+        <td>
+          12
+        </td>
+        <td>
+          609
+          -
+          656
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #F0ADAD">
+          throw new scala.`package`.Exception(&quot;No such category present&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          24
+        </td>
+        <td>
+          13
+        </td>
+        <td>
+          680
+          -
+          696
+        </td>
+        <td>
+          Ident
+        </td>
+        <td>
+          operations.InventoryOperations.searchedItemList
+        </td>
+        <td style="background: #F0ADAD">
+          searchedItemList
+        </td>
+      </tr><tr>
+        <td>
+          29
+        </td>
+        <td>
+          14
+        </td>
+        <td>
+          808
+          -
+          837
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.lang.Object.==
+        </td>
+        <td style="background: #F0ADAD">
+          sortCriteria.==(&quot;high to low&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          30
+        </td>
+        <td>
+          17
+        </td>
+        <td>
+          847
+          -
+          909
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.SeqLike.sortWith
+        </td>
+        <td style="background: #F0ADAD">
+          itemList.sortWith(((item1: entity.Item, item2: entity.Item) =&gt; item1.price.&gt;(item2.price)))
+        </td>
+      </tr><tr>
+        <td>
+          30
+        </td>
+        <td>
+          16
+        </td>
+        <td>
+          883
+          -
+          908
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Float.&gt;
+        </td>
+        <td style="background: #F0ADAD">
+          item1.price.&gt;(item2.price)
+        </td>
+      </tr><tr>
+        <td>
+          30
+        </td>
+        <td>
+          18
+        </td>
+        <td>
+          847
+          -
+          909
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          scala.collection.SeqLike.sortWith
+        </td>
+        <td style="background: #F0ADAD">
+          itemList.sortWith(((item1: entity.Item, item2: entity.Item) =&gt; item1.price.&gt;(item2.price)))
+        </td>
+      </tr><tr>
+        <td>
+          30
+        </td>
+        <td>
+          15
+        </td>
+        <td>
+          897
+          -
+          908
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          entity.Item.price
+        </td>
+        <td style="background: #F0ADAD">
+          item2.price
+        </td>
+      </tr><tr>
+        <td>
+          33
+        </td>
+        <td>
+          20
+        </td>
+        <td>
+          969
+          -
+          994
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Float.&lt;
+        </td>
+        <td style="background: #F0ADAD">
+          item1.price.&lt;(item2.price)
+        </td>
+      </tr><tr>
+        <td>
+          33
+        </td>
+        <td>
+          22
+        </td>
+        <td>
+          933
+          -
+          995
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          scala.collection.SeqLike.sortWith
+        </td>
+        <td style="background: #F0ADAD">
+          itemList.sortWith(((item1: entity.Item, item2: entity.Item) =&gt; item1.price.&lt;(item2.price)))
+        </td>
+      </tr><tr>
+        <td>
+          33
+        </td>
+        <td>
+          19
+        </td>
+        <td>
+          983
+          -
+          994
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          entity.Item.price
+        </td>
+        <td style="background: #F0ADAD">
+          item2.price
+        </td>
+      </tr><tr>
+        <td>
+          33
+        </td>
+        <td>
+          21
+        </td>
+        <td>
+          933
+          -
+          995
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.SeqLike.sortWith
+        </td>
+        <td style="background: #F0ADAD">
+          itemList.sortWith(((item1: entity.Item, item2: entity.Item) =&gt; item1.price.&lt;(item2.price)))
+        </td>
+      </tr>
+    </table>
+          </div>
+        </div>
+      </body>
+    </html>
