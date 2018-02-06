@@ -22,4 +22,4 @@ lazy val account = (project in file("account"))
 lazy val checkout = (project in file("checkout"))
   .settings(
     commonForAllBuildResouces
-  )
+  ).dependsOn(inventory)

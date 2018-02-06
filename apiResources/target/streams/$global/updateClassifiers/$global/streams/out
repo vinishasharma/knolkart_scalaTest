@@ -727,17 +727,17 @@
 [debug] == resolving dependencies apiresources#apiresources$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.4 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.4!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.4!scalactic_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4!scala-parser-combinators_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.5!scala-xml_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.4!scalatest_2.12.jar(src)
-[debug] 	[NOT REQUIRED] log4j#log4j;1.2.17!log4j.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.4!scala-library.jar(src)
-[debug] 	[NOT REQUIRED] jline#jline;2.14.5!jline.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar(src)
-[debug] :: resolution report :: resolve 201ms :: artifacts dl 33ms
+[debug] 	[NOT REQUIRED] log4j#log4j;1.2.17!log4j.jar(src)
+[debug] 	[NOT REQUIRED] jline#jline;2.14.5!jline.jar(src)
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.4!scalatest_2.12.jar(src)
+[debug] :: resolution report :: resolve 123ms :: artifacts dl 16ms
 [debug] 	report for apiresources#apiresources$sources;0.1.0-SNAPSHOT compile produced in /home/knoldus/IdeaProjects/knolkartTest/apiResources/target/scala-2.12/resolution-cache/reports/apiresources-apiresources$sources-compile.xml
 [debug] 	report for apiresources#apiresources$sources;0.1.0-SNAPSHOT runtime produced in /home/knoldus/IdeaProjects/knolkartTest/apiResources/target/scala-2.12/resolution-cache/reports/apiresources-apiresources$sources-runtime.xml
 [debug] 	report for apiresources#apiresources$sources;0.1.0-SNAPSHOT test produced in /home/knoldus/IdeaProjects/knolkartTest/apiResources/target/scala-2.12/resolution-cache/reports/apiresources-apiresources$sources-test.xml
@@ -749,4 +749,4 @@
 [debug] 	report for apiresources#apiresources$sources;0.1.0-SNAPSHOT plugin produced in /home/knoldus/IdeaProjects/knolkartTest/apiResources/target/scala-2.12/resolution-cache/reports/apiresources-apiresources$sources-plugin.xml
 [debug] 	report for apiresources#apiresources$sources;0.1.0-SNAPSHOT pom produced in /home/knoldus/IdeaProjects/knolkartTest/apiResources/target/scala-2.12/resolution-cache/reports/apiresources-apiresources$sources-pom.xml
 [debug] 	report for apiresources#apiresources$sources;0.1.0-SNAPSHOT scala-tool produced in /home/knoldus/IdeaProjects/knolkartTest/apiResources/target/scala-2.12/resolution-cache/reports/apiresources-apiresources$sources-scala-tool.xml
-[debug] 	resolve done (201ms resolve - 33ms download)
+[debug] 	resolve done (123ms resolve - 16ms download)

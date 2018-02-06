@@ -35,6 +35,11 @@
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->compile]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->master]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->master]
+[debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->inventory#inventory_2.12;0.1.0-SNAPSHOT [compile->compile]
+[debug] sbt-chain: Checking cache for: dependency: inventory#inventory_2.12;0.1.0-SNAPSHOT {compile=[compile, default(compile)], runtime=[compile, default(compile)], test=[compile, default(compile)], compile-internal=[compile, default(compile)], runtime-internal=[compile, default(compile)], test-internal=[compile, default(compile)]}
+[debug] don't use cache for inventory#inventory_2.12;0.1.0-SNAPSHOT: changing=true
+[debug] 	found inventory#inventory_2.12;0.1.0-SNAPSHOT in inter-project
+[debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->inventory#inventory_2.12;0.1.0-SNAPSHOT [compile->default(compile)]
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for checkout#checkout$sources;0.1.0-SNAPSHOT [runtime]
 [debug] == resolving dependencies for checkout#checkout$sources;0.1.0-SNAPSHOT [compile]
@@ -62,6 +67,8 @@
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->compile]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->master]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->master]
+[debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->inventory#inventory_2.12;0.1.0-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->inventory#inventory_2.12;0.1.0-SNAPSHOT [compile->default(compile)]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->default]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->runtime]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->compile]
@@ -86,6 +93,8 @@
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [runtime->compile]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [runtime->master]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [runtime->master]
+[debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->inventory#inventory_2.12;0.1.0-SNAPSHOT [runtime->compile]
+[debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->inventory#inventory_2.12;0.1.0-SNAPSHOT [runtime->default(compile)]
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for checkout#checkout$sources;0.1.0-SNAPSHOT [test]
 [debug] == resolving dependencies for checkout#checkout$sources;0.1.0-SNAPSHOT [runtime]
@@ -119,6 +128,8 @@
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->compile]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->master]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->master]
+[debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->inventory#inventory_2.12;0.1.0-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->inventory#inventory_2.12;0.1.0-SNAPSHOT [compile->default(compile)]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->default]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->runtime]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->compile]
@@ -143,6 +154,8 @@
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [runtime->compile]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [runtime->master]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [runtime->master]
+[debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->inventory#inventory_2.12;0.1.0-SNAPSHOT [runtime->compile]
+[debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->inventory#inventory_2.12;0.1.0-SNAPSHOT [runtime->default(compile)]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [test->default]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [test->runtime]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [test->compile]
@@ -198,6 +211,8 @@
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [test->compile]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [test->master]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [test->master]
+[debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->inventory#inventory_2.12;0.1.0-SNAPSHOT [test->compile]
+[debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->inventory#inventory_2.12;0.1.0-SNAPSHOT [test->default(compile)]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [test->compile]
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.12.4 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.12.4
@@ -263,6 +278,8 @@
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->compile]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->master]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->master]
+[debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->inventory#inventory_2.12;0.1.0-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->inventory#inventory_2.12;0.1.0-SNAPSHOT [compile->default(compile)]
 [debug] == resolving dependencies for checkout#checkout$sources;0.1.0-SNAPSHOT [optional]
 [debug] == resolving dependencies for checkout#checkout$sources;0.1.0-SNAPSHOT [provided]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile-internal->default]
@@ -289,6 +306,8 @@
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile-internal->compile]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile-internal->master]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile-internal->master]
+[debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->inventory#inventory_2.12;0.1.0-SNAPSHOT [compile-internal->compile]
+[debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->inventory#inventory_2.12;0.1.0-SNAPSHOT [compile-internal->default(compile)]
 [debug] resolving dependencies for configuration 'runtime-internal'
 [debug] == resolving dependencies for checkout#checkout$sources;0.1.0-SNAPSHOT [runtime-internal]
 [debug] == resolving dependencies for checkout#checkout$sources;0.1.0-SNAPSHOT [runtime]
@@ -317,6 +336,8 @@
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->compile]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->master]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->master]
+[debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->inventory#inventory_2.12;0.1.0-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->inventory#inventory_2.12;0.1.0-SNAPSHOT [compile->default(compile)]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->default]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->runtime]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->compile]
@@ -341,6 +362,8 @@
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [runtime->compile]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [runtime->master]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [runtime->master]
+[debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->inventory#inventory_2.12;0.1.0-SNAPSHOT [runtime->compile]
+[debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->inventory#inventory_2.12;0.1.0-SNAPSHOT [runtime->default(compile)]
 [debug] == resolving dependencies for checkout#checkout$sources;0.1.0-SNAPSHOT [optional]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime-internal->default]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime-internal->runtime]
@@ -366,6 +389,8 @@
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [runtime-internal->compile]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [runtime-internal->master]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [runtime-internal->master]
+[debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->inventory#inventory_2.12;0.1.0-SNAPSHOT [runtime-internal->compile]
+[debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->inventory#inventory_2.12;0.1.0-SNAPSHOT [runtime-internal->default(compile)]
 [debug] resolving dependencies for configuration 'test-internal'
 [debug] == resolving dependencies for checkout#checkout$sources;0.1.0-SNAPSHOT [test-internal]
 [debug] == resolving dependencies for checkout#checkout$sources;0.1.0-SNAPSHOT [test]
@@ -395,6 +420,8 @@
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->compile]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->master]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [compile->master]
+[debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->inventory#inventory_2.12;0.1.0-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->inventory#inventory_2.12;0.1.0-SNAPSHOT [compile->default(compile)]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->default]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->runtime]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->compile]
@@ -419,6 +446,8 @@
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [runtime->compile]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [runtime->master]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [runtime->master]
+[debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->inventory#inventory_2.12;0.1.0-SNAPSHOT [runtime->compile]
+[debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->inventory#inventory_2.12;0.1.0-SNAPSHOT [runtime->default(compile)]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [test->default]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [test->runtime]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [test->compile]
@@ -468,6 +497,8 @@
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [test->compile]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [test->master]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [test->master]
+[debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->inventory#inventory_2.12;0.1.0-SNAPSHOT [test->compile]
+[debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->inventory#inventory_2.12;0.1.0-SNAPSHOT [test->default(compile)]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [test->compile]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [test->runtime(*)]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [test->compile]
@@ -543,6 +574,8 @@
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [test-internal->compile]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [test-internal->master]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->log4j#log4j;1.2.17 [test-internal->master]
+[debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->inventory#inventory_2.12;0.1.0-SNAPSHOT [test-internal->compile]
+[debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->inventory#inventory_2.12;0.1.0-SNAPSHOT [test-internal->default(compile)]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [test-internal->compile]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [test-internal->runtime(*)]
 [debug] == resolving dependencies checkout#checkout$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [test-internal->compile]
@@ -629,16 +662,16 @@
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.4!scala-library.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4!scala-parser-combinators_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.5!scala-xml_2.12.jar(src)
+[debug] 	[NOT REQUIRED] log4j#log4j;1.2.17!log4j.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.5!jline.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar(src)
-[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.4!scalactic_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.4!scalatest_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4!scala-parser-combinators_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.5!scala-xml_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar(src)
-[debug] 	[NOT REQUIRED] log4j#log4j;1.2.17!log4j.jar(src)
-[debug] :: resolution report :: resolve 126ms :: artifacts dl 20ms
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.4!scalatest_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.4!scalactic_2.12.jar(src)
+[debug] :: resolution report :: resolve 101ms :: artifacts dl 16ms
 [debug] 	report for checkout#checkout$sources;0.1.0-SNAPSHOT compile produced in /home/knoldus/IdeaProjects/knolkartTest/checkout/target/scala-2.12/resolution-cache/reports/checkout-checkout$sources-compile.xml
 [debug] 	report for checkout#checkout$sources;0.1.0-SNAPSHOT runtime produced in /home/knoldus/IdeaProjects/knolkartTest/checkout/target/scala-2.12/resolution-cache/reports/checkout-checkout$sources-runtime.xml
 [debug] 	report for checkout#checkout$sources;0.1.0-SNAPSHOT test produced in /home/knoldus/IdeaProjects/knolkartTest/checkout/target/scala-2.12/resolution-cache/reports/checkout-checkout$sources-test.xml
@@ -650,4 +683,4 @@
 [debug] 	report for checkout#checkout$sources;0.1.0-SNAPSHOT plugin produced in /home/knoldus/IdeaProjects/knolkartTest/checkout/target/scala-2.12/resolution-cache/reports/checkout-checkout$sources-plugin.xml
 [debug] 	report for checkout#checkout$sources;0.1.0-SNAPSHOT pom produced in /home/knoldus/IdeaProjects/knolkartTest/checkout/target/scala-2.12/resolution-cache/reports/checkout-checkout$sources-pom.xml
 [debug] 	report for checkout#checkout$sources;0.1.0-SNAPSHOT scala-tool produced in /home/knoldus/IdeaProjects/knolkartTest/checkout/target/scala-2.12/resolution-cache/reports/checkout-checkout$sources-scala-tool.xml
-[debug] 	resolve done (126ms resolve - 20ms download)
+[debug] 	resolve done (101ms resolve - 16ms download)

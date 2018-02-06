@@ -4,7 +4,7 @@
 		module="apiresources$sources"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20180206162150"
+		publication="20180206174229"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
