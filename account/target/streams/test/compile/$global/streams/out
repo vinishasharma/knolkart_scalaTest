@@ -1,4 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m/home/knoldus/IdeaProjects/knolkartTest/account/src/test/scala/UserOperationTest.scala:22:3: Missing closing brace `}' assumed here[0m
-[0m[[0m[31merror[0m] [0m[0m  it should "cannot remove user exception" in {[0m
-[0m[[0m[31merror[0m] [0m[0m  ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m

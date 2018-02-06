@@ -1,2 +1,6 @@
 testOnly UserOperationTest
 sbt test
+testOnly checkoutTest.checkoutOperationsTest
+testOnly scala.checkoutTest.checkoutOperationsTest
+testOnly checkoutTest.checkoutOperationsTest
+testOnly inventoryTest.inventoryOpearationTest

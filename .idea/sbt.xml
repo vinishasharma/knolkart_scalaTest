@@ -13,6 +13,8 @@
             <option value="$PROJECT_DIR$/apiResources/project" />
             <option value="$PROJECT_DIR$/checkout" />
             <option value="$PROJECT_DIR$/checkout/project" />
+            <option value="$PROJECT_DIR$/dashboard" />
+            <option value="$PROJECT_DIR$/dashboard/project" />
             <option value="$PROJECT_DIR$/inventory" />
             <option value="$PROJECT_DIR$/inventory/project" />
             <option value="$PROJECT_DIR$/project" />

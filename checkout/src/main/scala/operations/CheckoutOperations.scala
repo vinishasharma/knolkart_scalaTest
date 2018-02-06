@@ -9,7 +9,14 @@ class CheckoutOperations extends checkoutResources{
     item :: itemList
   }
   def removeItemsFromKart(itemList: List[Item],item: Item): List[Item]={
-    itemList diff List(item)
+    val userExist = itemList.exists(x => x.itemID == item.itemID)
+    if (userExist) {
+      itemList diff List(item)
+    }
+    else {
+      throw new Exception("item does not exist ")
+    }
+
   }
   def buyItems(itemList: List[Item]): Double = {
     val totalAmount = itemList.foldLeft(0.0)((initialSum, item) => {

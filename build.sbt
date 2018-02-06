@@ -23,3 +23,8 @@ lazy val checkout = (project in file("checkout"))
   .settings(
     commonForAllBuildResouces
   ).dependsOn(inventory)
+lazy val dashboard = (project in file("dashboard"))
+  .settings(
+    commonForAllBuildResouces
+  ).dependsOn(apiResources)
+

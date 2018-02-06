@@ -1,0 +1,8 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mcheckoutOperationsTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32maddItems to kart function[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should add new item to the existing item list in kart[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mremove Item function[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should remove item from the kart[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should give no such item exists exception[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mbuy items function[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should give total amount to be payed[0m[0m

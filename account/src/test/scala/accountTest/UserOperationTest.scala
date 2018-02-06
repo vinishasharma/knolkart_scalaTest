@@ -9,30 +9,29 @@ class UserOperationTest extends FlatSpec {
   val userOperationTest = new UserOperations
   val user =  new User("vinisha","vinisha1234","9999876542")
   val otherUser =  new User("ramesh","ramesh1234","9899876542")
+  val userList = List(otherUser)
   "addUser function" should "add new user to the existing user list" in {
-
-    assert(userOperationTest.addUser(List(user)).contains(User("vinisha","vinisha1234","9999876542")))
+    assert(userOperationTest.addUser(userList,user).contains(user))
   }
 
   it should "new user cannot be added exception" in {
-    assertThrows[ArithmeticException](userOperationTest.addUser(List(otherUser)))
+    assertThrows[Exception](userOperationTest.addUser(userList,otherUser))
   }
 
   "removeUser function" should "remove user from the existing user list" in {
-    assert(!userOperationTest.removeUser(List(user), user).contains(user))
+    assert(!userOperationTest.removeUser(userList, otherUser).contains(otherUser))
   }
 
   it should "cannot remove user exception" in {
-    assertThrows[ArithmeticException](userOperationTest.addUser(List(user,otherUser)))
+    assertThrows[Exception](userOperationTest.removeUser(userList,user))
   }
 
-  "authenticateUser function" should "return token if user is registered" in {
-    assert(userOperationTest.authenticateUser("vinisha","vinisha1234",List(user)) == "vinishaToken")
-    assert(userOperationTest.authenticateUser("vinisha","vinisha1234",List(user)) == "vinishaToken")
+  "authenticateUser function" should "return true if user is registered" in {
+    assert(userOperationTest.authenticateUser("ramesh","ramesh1234",userList))
   }
 
   it should " give user not registered exception" in {
-    assertThrows[ArithmeticException](userOperationTest.addUser(List(user,otherUser)))
+    assertThrows[Exception](userOperationTest.authenticateUser("vinisha","vinisha11",userList))
   }
 
 }
