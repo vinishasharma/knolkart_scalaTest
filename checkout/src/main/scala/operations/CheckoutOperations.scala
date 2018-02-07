@@ -3,12 +3,13 @@ package operations
 import entity.Item
 import resources.checkoutResources
 
-class CheckoutOperations extends checkoutResources{
+class CheckoutOperations extends checkoutResources {
 
-  def addItemsToKart(itemList: List[Item],item: Item): List[Item] ={
+  def addItemsToKart(itemList: List[Item], item: Item): List[Item] = {
     item :: itemList
   }
-  def removeItemsFromKart(itemList: List[Item],item: Item): List[Item]={
+
+  def removeItemsFromKart(itemList: List[Item], item: Item): List[Item] = {
     val userExist = itemList.exists(x => x.itemID == item.itemID)
     if (userExist) {
       itemList diff List(item)
@@ -18,6 +19,7 @@ class CheckoutOperations extends checkoutResources{
     }
 
   }
+
   def buyItems(itemList: List[Item]): Double = {
     val totalAmount = itemList.foldLeft(0.0)((initialSum, item) => {
       initialSum + item.price

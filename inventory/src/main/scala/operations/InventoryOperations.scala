@@ -5,7 +5,7 @@ import resources.InventoryResources
 
 class InventoryOperations extends InventoryResources {
 
-  def addItem(itemList: List[Item],item: Item): List[Item] = {
+  def addItem(itemList: List[Item], item: Item): List[Item] = {
     val itemIdExist = itemList.exists(x => x.itemID == item.itemID)
     if (itemIdExist) {
       throw new Exception("similnar ID already exist, item can't be added")

@@ -8,7 +8,7 @@ class UserOperations extends AccountResources {
 
   val log = Logger.getLogger(this.getClass)
 
-  def addUser(userList: List[User],user: User): List[User] = {
+  def addUser(userList: List[User], user: User): List[User] = {
     val userExist = userList.exists(x => x.mobileNumber == user.mobileNumber)
     if (userExist) {
       throw new Exception("Similar User exists,New user cannot be added")
@@ -22,7 +22,7 @@ class UserOperations extends AccountResources {
     val userExist = userList.exists(x => x.mobileNumber == user.mobileNumber)
     if (userExist) {
       userList diff List(user)
-          }
+    }
     else {
       throw new Exception("user does not exist ")
     }
